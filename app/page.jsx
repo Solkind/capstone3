@@ -5,11 +5,14 @@ const Home = () => (
     <h1 className="head_text text-center">
       Discover & Share
       <br className="max-md:hidden" />
-      <span className="orange_gradient text-center"> AI-Powered Prompts</span>
+      <span className="green_gradient text-center">
+        {" "}
+        Thoughts of our Collective Minds
+      </span>
     </h1>
     <p className="desc text-center">
-      PromptAIWorld is an open-source AI prompting tool for modern world to
-      discover, create and share creative prompts
+      SharedThoughts is an open-source tool for our world to discover, create
+      and share thoughts, ideas, memories with the world.
     </p>
 
     <Feed />
