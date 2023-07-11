@@ -1,3 +1,9 @@
+See below for steps to test app for yourself.
+
+1. App URL https://capstone3-wheat.vercel.app/
+2. GitHub URL https://github.com/Solkind/capstone3
+3. Use Google Authentication for easy authentication to app.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
