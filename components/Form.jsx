@@ -7,8 +7,8 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <span className="blue_gradient">{type} Post</span>
       </h1>
       <p className="desc text-left max-w-md">
-        {type} and share amazing prompts with the world, and let your
-        imagination run wild with any AI-powered platform.
+        {type} and share amazing thoughts with the world, and let your
+        imagination run wild and share with our collective mind.
       </p>
 
       <form
@@ -23,7 +23,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           <textarea
             value={post.prompt}
             onChange={(e) => setPost({ ...post, prompt: e.target.value })}
-            placeholder="Write your post here"
+            placeholder="Write your thought here"
             required
             className="form_textarea "
           />
@@ -32,7 +32,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
           <span className="font-satoshi font-semibold text-base text-gray-700">
             Tag{" "}
             <span className="font-normal">
-              (product, webdevelopment, idea, etc.)
+              (product, webdevelopment, idea, quote, etc.)
             </span>
           </span>
 
