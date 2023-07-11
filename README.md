@@ -1,8 +1,15 @@
-See below for steps to test app for yourself.
+See below for steps to test app for yourself:
 
-1. App URL https://capstone3-wheat.vercel.app/
-2. GitHub URL https://github.com/Solkind/capstone3
-3. Use Google Authentication for easy authentication to app.
+• App URL https://capstone3-wheat.vercel.app/
+• GitHub URL https://github.com/Solkind/capstone3
+• Use Google Authentication for easy authentication to app.
+• Home page – Feed of Shared Thoughts
+o Searchable by #tag and user profile
+• Profile page for the authenticated user
+o Lists shared thoughts and user can edit/delete thoughts
+• Create Thought form
+• Edit Thought form
+• Each Thought post can be copied using top-right copy function available on each Thought
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
