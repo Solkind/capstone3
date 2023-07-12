@@ -5,7 +5,7 @@ const Home = () => (
     <h1 className="head_text text-center">
       Discover & Share
       <br className="max-md:hidden" />
-      <span className="green_gradient text-center">
+      <span className="orange_gradient text-center">
         {" "}
         Thoughts of our Collective Minds
       </span>
